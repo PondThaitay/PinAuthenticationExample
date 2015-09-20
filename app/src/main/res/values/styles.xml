@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Styles for the keyboard buttons -->
+    <style name="PinButton">
+        <!-- Preferably a selector drawable -->
+        <item name="android:background">@drawable/selector_button_my_style</item>
+        <item name="android:textSize">@dimen/pin_button_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <!-- Styles for Button text color -->
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- Styles for errors and prompt text -->
+    <style name="PinStatus">
+        <!-- This can also be a color selector for pressed and normal states -->
+        <item name="android:textColor">@color/color_pin_status_text</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Styles for Pin Entry holes -->
+    <style name="PinEntry">
+        <!-- A selector definitely with a normal and selected state -->
+        <item name="android:src">@drawable/selector_pin_entry_my_style</item>
+    </style>
+
+</resources>
